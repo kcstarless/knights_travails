@@ -1,6 +1,5 @@
 # KnightSquare class which is representation of a Graph
-class KnightSquare
-  attr_accessor :path
+class Knight
   def initialize
     @knight_moves = [[1, 2], [-1, 2], [2, 1], [2, 1], [1, - 2], [- 1, - 2], [- 2, 1], [- 2, - 1]]
   end
